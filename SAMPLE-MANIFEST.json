@@ -1,0 +1,35 @@
+{
+  "sample": "notification-timeout-sample",
+  "version": "0.1.0",
+  "public_url": "https://adrianstudio3.itch.io/notification-timeout-lab-free-java-sample",
+  "license_status": "MIT; LICENSE included",
+  "tested_jdk": "OpenJDK 21.0.11",
+  "target_java": 21,
+  "prerequisites": [
+    "JDK 21 or newer with java and javac",
+    "POSIX shell for run.sh, or direct Java commands"
+  ],
+  "run_command": "./run.sh",
+  "test_count": 7,
+  "failures": 0,
+  "third_party_build_dependencies": 0,
+  "provider": "in-process synthetic fake",
+  "persistence": "none; fake records and Outcome values are memory-only",
+  "idempotency_scope": "one FakeProvider object and key; identical payload required",
+  "idempotency_retention": "object lifetime; no expiry; new object empty",
+  "reconciliation": "trusted positive fake lookup resolves acceptance; NOT_FOUND stays UNKNOWN without send",
+  "verified_restart_or_concurrency": false,
+  "public_attribution": "adrianstudio3",
+  "paid_kit_url": "https://adrianstudio3.gumroad.com/l/iqwjwr",
+  "included_files": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "SAMPLE-MANIFEST.json",
+    "TEST-EVIDENCE.md",
+    "TUTORIAL-OUTLINE.md",
+    "run.sh",
+    "src/main/java/sample/TimeoutLab.java",
+    "src/test/java/sample/TimeoutLabTest.java"
+  ]
+}
