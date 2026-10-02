@@ -60,7 +60,7 @@ Start with `src/main/java/sample/TimeoutLab.java`, then the seven checks in `src
 
 ## Continue with the paid teaching kit
 
-[Notification Failure Kit on Gumroad](https://adrianstudio3.gumroad.com/l/iqwjwr) contains the broader PostgreSQL-backed lab: post-commit recovery, concurrent workers and receipt ordering, plus the guide. Those paid source files are **not included** in this free sample. The MIT license applies only to this sample; it does not grant access to or change the paid kit's separate buyer license.
+[Notification Failure Lab for Spring Boot on Gumroad](https://adrianstudio3.gumroad.com/l/iqwjwr) contains the broader PostgreSQL-backed lab: post-commit recovery, concurrent workers and receipt ordering, plus the guide. Those paid source files are **not included** in this free sample. The MIT license applies only to this sample; it does not grant access to or change the paid kit's separate buyer license.
 
 
 ## Authorship and seller disclosure
